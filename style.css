@@ -1,0 +1,47 @@
+
+:root{
+
+    --color-carbon:#0d0d0d;
+    --color-orange:#ea6b3d;
+    --white-color:#ffff;
+    --color-orange2:#e65a29;
+
+}
+
+
+/*
+* HEADER LOGO
+*/
+.logo{
+    font-size: 2rem;
+}
+
+/*
+* HEADER BG-COLOR
+*/
+
+.h-bg-color{
+    background-color: var(--color-carbon);
+    color: white;
+}
+
+.subh-bg-color{
+    background-color: var(--color-carbon);
+}
+
+/*
+* Categories and products
+*/
+
+
+.categories-container{
+    border-radius: 10px;
+    background-color: var(--color-orange);
+}
+.cart_img{
+    width: 80px;
+    height: 80px;
+    object-fit:contain;
+}
+
+
